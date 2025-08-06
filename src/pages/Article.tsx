@@ -1,9 +1,8 @@
 import { useParams } from 'react-router-dom';
-import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SubscriptionForm from '@/components/SubscriptionForm';
 import CookieBanner from '@/components/CookieBanner';
-import { Calendar, Clock, User, Share2, Heart, MessageCircle } from 'lucide-react';
+import { Calendar, Clock, User, Share2, Heart, MessageCircle, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import rosaliaImage from '@/assets/rosalia-portrait.jpg';
 import penelopeImage from '@/assets/penelope-cruz-venice.jpg';
@@ -129,7 +128,6 @@ const Article = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
       
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article className="space-y-8">

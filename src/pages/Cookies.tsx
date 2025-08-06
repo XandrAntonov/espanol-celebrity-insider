@@ -1,4 +1,4 @@
-import Header from '@/components/Header';
+import { Link } from 'react-router-dom';
 import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
 import { Card, CardContent } from '@/components/ui/card';
@@ -31,7 +31,6 @@ const Cookies = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
       
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="space-y-8">

@@ -1,6 +1,5 @@
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import SubscriptionForm from '@/components/SubscriptionForm';
+import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
 import { Card, CardContent } from '@/components/ui/card';
 import { Check, Star, Zap, Heart, Users, Clock } from 'lucide-react';
@@ -49,7 +48,6 @@ const Subscription = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
       
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="space-y-16">

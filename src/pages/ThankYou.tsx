@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
 import { Button } from '@/components/ui/button';
@@ -14,8 +13,7 @@ const ThankYou = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
+    <div className="min-h-screen bg-background flex items-center justify-center">
       
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center space-y-12">
