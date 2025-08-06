@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Star, Instagram } from 'lucide-react';
+import { Menu, X, Star } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -48,16 +48,8 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button & Social */}
-          <div className="hidden md:flex items-center space-x-4">
-            <a 
-              href="https://instagram.com/claraceleb" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-smooth"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
+          {/* CTA Button */}
+          <div className="hidden md:flex items-center">
             <Link to="/subscription">
               <Button variant="cta" size="sm">
                 ¡Suscríbete!
@@ -95,15 +87,7 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <div className="flex items-center justify-between pt-3 border-t border-border">
-                <a 
-                  href="https://instagram.com/claraceleb" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-smooth"
-                >
-                  <Instagram className="h-5 w-5" />
-                </a>
+              <div className="flex justify-end pt-3 border-t border-border">
                 <Link to="/subscription">
                   <Button variant="cta" size="sm">
                     ¡Suscríbete!
