@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Mail, Instagram } from 'lucide-react';
+import { Menu, X, Star, Instagram } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -8,10 +8,9 @@ const Header = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Inicio', href: '/' },
     { name: 'Artículos', href: '/articles' },
     { name: 'Suscripción', href: '/subscription' },
-    { name: 'Sobre Clara', href: '/about' },
+    { name: 'Sobre Celeb News', href: '/about' },
     { name: 'Contacto', href: '/contact' },
   ];
 
@@ -24,11 +23,11 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="bg-gradient-hero p-2 rounded-full">
-              <Mail className="h-6 w-6 text-white" />
+              <Star className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">Clara Celeb</h1>
-              <p className="text-xs text-muted-foreground">Noticias exclusivas</p>
+              <h1 className="text-xl font-bold text-foreground">Celeb News</h1>
+              <p className="text-xs text-muted-foreground">Noticias de famosos</p>
             </div>
           </Link>
 
