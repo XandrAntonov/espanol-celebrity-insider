@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
-import CookieBanner from '@/components/CookieBanner';
 import { Card, CardContent } from '@/components/ui/card';
 import { Shield, Mail, Clock } from 'lucide-react';
 
@@ -187,8 +185,6 @@ const Privacy = () => {
         </div>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };

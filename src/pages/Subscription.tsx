@@ -1,6 +1,4 @@
 import SubscriptionForm from '@/components/SubscriptionForm';
-import Footer from '@/components/Footer';
-import CookieBanner from '@/components/CookieBanner';
 import { Card, CardContent } from '@/components/ui/card';
 import { Check, Star, Zap, Heart, Users, Clock } from 'lucide-react';
 
@@ -254,8 +252,6 @@ const Subscription = () => {
         </div>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };

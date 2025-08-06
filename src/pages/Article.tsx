@@ -1,7 +1,5 @@
 import { useParams } from 'react-router-dom';
-import Footer from '@/components/Footer';
 import SubscriptionForm from '@/components/SubscriptionForm';
-import CookieBanner from '@/components/CookieBanner';
 import { Calendar, Clock, User, Share2, Heart, MessageCircle, ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import rosaliaImage from '@/assets/rosalia-portrait.jpg';
@@ -225,8 +223,6 @@ const Article = () => {
         </article>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };

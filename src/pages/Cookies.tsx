@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
-import CookieBanner from '@/components/CookieBanner';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Cookie, Settings, BarChart, Shield } from 'lucide-react';
@@ -313,8 +311,6 @@ const Cookies = () => {
         </div>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };

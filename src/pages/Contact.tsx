@@ -1,5 +1,3 @@
-import Footer from '@/components/Footer';
-import CookieBanner from '@/components/CookieBanner';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -285,8 +283,6 @@ const Contact = () => {
         </div>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };

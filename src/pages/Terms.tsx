@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import Footer from '@/components/Footer';
-import CookieBanner from '@/components/CookieBanner';
 import { Card, CardContent } from '@/components/ui/card';
 import { FileText, Mail, AlertTriangle } from 'lucide-react';
 
@@ -225,8 +223,6 @@ const Terms = () => {
         </div>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };

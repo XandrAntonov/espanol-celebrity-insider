@@ -1,6 +1,4 @@
-import Footer from '@/components/Footer';
 import SubscriptionForm from '@/components/SubscriptionForm';
-import CookieBanner from '@/components/CookieBanner';
 import { User, Award, Mail, Instagram, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -161,8 +159,6 @@ const About = () => {
         </div>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };

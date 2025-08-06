@@ -1,6 +1,4 @@
 import { useEffect } from 'react';
-import Footer from '@/components/Footer';
-import CookieBanner from '@/components/CookieBanner';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { CheckCircle, Mail, Instagram, ArrowLeft, Gift } from 'lucide-react';
@@ -218,8 +216,6 @@ const ThankYou = () => {
         </div>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };

@@ -1,7 +1,5 @@
 import ArticleCard from '@/components/ArticleCard';
-import Footer from '@/components/Footer';
 import SubscriptionForm from '@/components/SubscriptionForm';
-import CookieBanner from '@/components/CookieBanner';
 import rosaliaImage from '@/assets/rosalia-portrait.jpg';
 import penelopeImage from '@/assets/penelope-cruz-venice.jpg';
 import enriqueImage from '@/assets/enrique-iglesias-concert.jpg';
@@ -141,8 +139,6 @@ const Articles = () => {
         </div>
       </main>
 
-      <Footer />
-      <CookieBanner />
     </div>
   );
 };
